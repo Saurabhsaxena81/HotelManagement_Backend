@@ -1,8 +1,7 @@
 const mongoose = require("mongoose");
 require("dotenv").config();
 //define the mongodb connection url
-//const mongoURL = "mongodb://localhost:27017/crudHelloWorld"
-// const mongoURL = "mongodb+srv://saurabhsaxena81272:hotel123@cluster0.xn3l7.mongodb.net/"
+
 const mongoURL = process.env.mongoURL;
 //setup mongodb connection
 // mongoose.connect(mongoURL,{
